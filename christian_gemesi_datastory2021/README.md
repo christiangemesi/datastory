@@ -1,15 +1,30 @@
-#Titel
+
+##Titel
 Team: Christian Gémesi
 
 ## Ziel
 
-Ich möchte das Bevölkerungswachstum der Schweiz analysieren und herausfinden, in welchen Ortschaften die meisten, beziehungsweise am wenigsten Personen zugezogen sind. 
-Ausserdem möchte ich die einzelnen Kantone und Städte miteinander vergleichen ob allenfalls Trends herauszulesen sind.
-Zusätzlich will ich herausfinden in welchem Kanton, beziehungsweise in welcher Stadt am wenigsten, beziehungsweise am meisten Personen leben.
+Bevölkerungswachstum analysieren
+
+Bevölkerungswachstum
+-Welchen Stadt,Kanton am meisten personen zugezogen bzw am wenigsten.
+	in Zahlen
+	in Prozent
+
+-Trendanalyse:
+	in Zahlen
+	in Prozent
+
+-Grossstädte analysieren (wachstum) -> vielleicht sieht man Trends
+	Zürich,Bern,Basel,Genf
+
+-wo leben die meisten Personen, bzw die wenigsten
+	Kanton,Stadt
+
+- Entwicklung visualisiert auf Karte, in Relation zu grösse 
 
 ## Datenquelle
 
-Ich habe bereits auf OpenData gewisse Excel-Dateien gefunden, welche mir die Bevölkerungsentwicklung von 18:50 bis 2000 pro Kanton, Bezirk und Stadt anzeigen.
-Diese werde diese Datei sortieren und mit Python analysieren. 
+-Daten von 1850 - 2000 in excel
 
 https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
