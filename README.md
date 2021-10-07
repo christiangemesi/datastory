@@ -1,15 +1,20 @@
-#Titel
-Team: Christian Gémesi
+# Data Stories HS 2021
 
-## Ziel
+## Milestones
 
-Ich möchte das Bevölkerungswachstum der Schweiz analysieren und herausfinden, in welchen Ortschaften die meisten, beziehungsweise am wenigsten Personen zugezogen sind. 
-Ausserdem möchte ich die einzelnen Kantone und Städte miteinander vergleichen ob allenfalls Trends herauszulesen sind.
-Zusätzlich will ich herausfinden in welchem Kanton, beziehungsweise in welcher Stadt am wenigsten, beziehungsweise am meisten Personen leben.
+## Fork and clone this repository
 
-## Datenquelle
+Fork and clone this repository onto your own machine, following the description
+in
+[https://gitlab.fhnw.ch/ml/courses/dsp/dsp_hs2021](https://gitlab.fhnw.ch/ml/courses/dsp/dsp_hs2021).
 
-Ich habe bereits auf OpenData gewisse Excel-Dateien gefunden, welche mir die Bevölkerungsentwicklung von 18:50 bis 2000 pro Kanton, Bezirk und Stadt anzeigen.
-Diese werde diese Datei sortieren und mit Python analysieren. 
+to your `MY_DSP_DIR` such that it ends up in your docker container home directory as well.  
 
-https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
+To jointly develop your project work both on the fork of one team member.
+
+
+## Submit your data story milestones by submitting merge requests
+
+Submit the milestone results of your data story by submitting a merge to the
+original repository through the GitLab GUI.
+
