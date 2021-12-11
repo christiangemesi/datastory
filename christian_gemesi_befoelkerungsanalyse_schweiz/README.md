@@ -35,8 +35,7 @@ https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-200
 
 -Folgende Files liegen vor:
 	1. ein fetch_data.py Skript, welches die daten von "https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000" herunterlädt, entpackt und für
-	die weiterverarbeitung anpasst. (Bitte zu beachten, dass das Skript bereits ausgeführt wurde, und bei erneutem durchlauf alle CSV-Files erneut erstellt werden. Daher bitte
-	zu Erst die Daten in data\raw löschen.) 
+	die weiterverarbeitung anpasst. (Bitte zu beachten, dass das Skript bereits ausgeführt wurde, und bei erneutem durchlauf alle CSV-Files erneut erstellt werden. Daher bitte zu Erst die Daten in data\raw löschen.) 
 	2. CSV-Files der einzelnen Kantone
 - Quellen:
 	https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
@@ -45,9 +44,55 @@ Data Description - Raw:
 	Eine Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
 	(oben ersichtlich, z.B. 1850 waren 4657 Personen angemeldet in Aarau)
 
-	Die CSV-Dateien wurden vorerst nicht zusammengemerged und sind somit pro Kanton abgelegt. Die Spalte Kanton in jedem CSV-File ist somit Redundant. 
+	Die CSV-Dateien wurden zusammengemerged.
 
 	Beispiel:
 	Kanton	Stadt	1850	1860	1870	1880	1888	1900	1910	1920	1930	1941	1950	1960	1970	1980	1990	2000
 	AG	Aarau	4657	5094	5401	5914	6699	7831	9593	10701	11666	12900	14280	17045	16881	15788	16481	15470
+
+
+Data Description - Milestone 2.5
+
+Wer hat die Daten erhoben?
+Christian Gémesi
+
+Wie wurden die Daten erhoben?
+Via Downloadlink (genauer bereits oben beschrieben)
+
+Wann wurden die Daten erhoben?
+
+https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
+
+Gemäss Link am 1. November 2005
+
+Wie viele Datenpunkte (n) wurden erfasst?
+
+Es wurde für jede Stadt in der Schweiz ein Wert für die Jahre von 1850-2000 erhoben
+2896 rows × 18 columns
+
+Wurden Attribute präprozessiert? Falls ja, wie?
+Daten wurden nicht präprozessiert
+
+Wurden die Daten gefiltert? Falls ja, wie?
+Daten wurden nicht gefiltert
+
+Welche Merkmale, Variablen, Attribute wurden erfasst?
+Siehe oben unter Data Description - Raw
+
+Was für Dimensionen / Masseinheiten haben die Variablen?
+
+Von was für einem Variablentyp sind die Variablen?
+
+kategorische (nominale) Variablen
+-Kanton
+-Stadt
+
+quantitiative (kardinale) Variablen
+-1850
+-1860
+-...
+-2000
+
+
+
 
