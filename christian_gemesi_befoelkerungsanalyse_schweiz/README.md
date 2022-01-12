@@ -48,6 +48,26 @@ Attribute:
 	Kanton	Stadt	1850	1860	1870	1880	1888	1900	1910	1920	1930	1941	1950	1960	1970	1980	1990	2000
 	AG	Aarau	4657	5094	5401	5914	6699	7831	9593	10701	11666	12900	14280	17045	16881	15788	16481	15470
 
+	Datentypen liegen wie folgt vor:
+
+	Kanton     object
+	Stadt      object
+	1850      float64
+	1860      float64
+	1870      float64
+	1880      float64
+	1890      float64
+	1900      float64
+	1910      float64
+	1920      float64
+	1930      float64
+	1940      float64
+	1950      float64
+	1960      float64
+	1970      float64
+	1980      float64
+	1990      float64
+	2000      float64
 
 Data Description - Milestone 2.5
 
