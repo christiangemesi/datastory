@@ -10,6 +10,7 @@ import pandas as pd
 import pathlib
 import xlrd
 import time
+import glob
 
 #Variables
 url = 'https://www.bfs.admin.ch/bfsstatic/dam/assets/340621/appendix'
@@ -86,6 +87,25 @@ for i in range(array_length) :
     else:
         print("The file does not exist or got already deleted")
 
+        
+#put each canton into one big csv
+path = os.getcwd()
+all_files = glob.glob(os.path.join(path, "*.csv"))
+df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
+df_merged = pd.concat(df_from_each_file)
+print("put all files into one big one")
+df_merged.to_csv( "merged.csv")
+    
+#remove old csv files except the big one "merged.csv"
+for i in range(array_length):
+    toRemovedFile = excelFiles[i]+"-neu.csv"
+    
+    if os.path.exists(toRemovedFile):
+        os.remove(toRemovedFile)
+        print("remove", toRemovedFile)
+    else:
+        print("The file does not exist or got already deleted")
+        
 #change directory back directory
 os.chdir('..')
 print("changing directory to /data")

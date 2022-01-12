@@ -1,10 +1,8 @@
-
-##Bevoelkerungswachstum der Schweiz
+#Bevoelkerungswachstum der Schweiz
 Team: Christian Gémesi
 
 ## Ziel
-
-Bevölkerungswachstum analysieren
+Mein Ziel ist es das Bevölkerungswachstum der Schweiz zu analysieren:
 
 Bevölkerungswachstum
 -Welchen Stadt,Kanton am meisten personen zugezogen bzw am wenigsten.
