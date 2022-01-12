@@ -33,13 +33,13 @@ https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-200
 
 -Folgende Files liegen vor:
 	1. ein fetch_data.py Skript, welches die daten von "https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000" herunterlädt, entpackt und für
-	die weiterverarbeitung anpasst. (Bitte zu beachten, dass das Skript bereits ausgeführt wurde, und bei erneutem durchlauf alle CSV-Files erneut erstellt werden. Daher bitte zu Erst die Daten in data\raw löschen.) 
-	2. CSV-Files der einzelnen Kantone
+	die weiterverarbeitung anpasst. (Bitte zu beachten, dass das Skript bereits ausgeführt wurde, und bei erneutem durchlauf das merged.CSV-File in data\raw gelöscht werden muss.  
+
 - Quellen:
 	https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
 
 Data Description - Raw:
-	Eine Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
+	Die Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
 	(oben ersichtlich, z.B. 1850 waren 4657 Personen angemeldet in Aarau)
 
 	Die CSV-Dateien wurden zusammengemerged.
