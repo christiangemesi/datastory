@@ -27,7 +27,7 @@ Bevölkerungswachstum
 
 https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
 
-## Data Collection
+## Data Description - Raw
 
 -Die Daten wurden vom Bundesamt für Statistik BFS gesammelt, zuletzt aktualisiert am 1. November 2005
 
@@ -38,7 +38,7 @@ https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-200
 - Quellen:
 	https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
 
-Data Description - Raw:
+Attribute:
 	Die Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
 	(oben ersichtlich, z.B. 1850 waren 4657 Personen angemeldet in Aarau)
 
