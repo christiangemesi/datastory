@@ -19,7 +19,7 @@ Bevölkerungswachstum
 -wo leben die meisten Personen, bzw die wenigsten
 	Kanton,Stadt
 
-- Entwicklung visualisiert auf Karte, in Relation zu grösse 
+-Entwicklung visualisiert auf Karte, in Relation zu grösse 
 
 ## Datenquelle
 
@@ -27,7 +27,9 @@ Bevölkerungswachstum
 
 https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
 
-## Data Description - Raw
+## Data Collection
+
+### Data Description - Raw
 
 -Die Daten wurden vom Bundesamt für Statistik BFS gesammelt, zuletzt aktualisiert am 1. November 2005
 
