@@ -93,10 +93,11 @@ path = os.getcwd()
 all_files = glob.glob(os.path.join(path, "*.csv"))
 df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
 df_merged = pd.concat(df_from_each_file)
+print("------------------------------")
 print("put all files into one big one")
-df_merged.to_csv( "merged.csv")
+print("------------------------------")
+df_merged.to_csv( "raw_data.csv")
     
-#remove old csv files except the big one "merged.csv"
 for i in range(array_length):
     toRemovedFile = excelFiles[i]+"-neu.csv"
     
