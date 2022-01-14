@@ -7,11 +7,9 @@ Mein Ziel ist es das Bevölkerungswachstum der Schweiz zu analysieren:
 Bevölkerungswachstum
 -Welchen Stadt,Kanton am meisten personen zugezogen bzw am wenigsten.
 	in Zahlen
-	in Prozent
 
 -Trendanalyse:
 	in Zahlen
-	in Prozent
 
 -Grossstädte analysieren (wachstum) -> vielleicht sieht man Trends
 	Zürich,Bern,Basel,Genf
@@ -40,11 +38,13 @@ https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-200
 - Quellen:
 	https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
 
+Alle CSV-Dateien wurden zusammengemerged.
+
+### Data Description - Preprocessing
+
 Attribute:
 	Die Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
 	(oben ersichtlich, z.B. 1850 waren 4657 Personen angemeldet in Aarau)
-
-	Die CSV-Dateien wurden zusammengemerged.
 
 	Beispiel:
 	Kanton	Stadt	1850	1860	1870	1880	1888	1900	1910	1920	1930	1941	1950	1960	1970	1980	1990	2000
@@ -71,7 +71,7 @@ Attribute:
 	1990      float64
 	2000      float64
 
-Data Description - Milestone 2.5
+
 
 Wer hat die Daten erhoben?
 Christian Gémesi
