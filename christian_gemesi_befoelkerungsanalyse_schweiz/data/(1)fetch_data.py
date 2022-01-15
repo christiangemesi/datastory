@@ -1,14 +1,11 @@
 #!/usr/bin/env python3 
 # coding: utf-8
 
-from io import BytesIO
 import zipfile
-from urllib.request import urlopen
 import os
 import requests
 import pandas as pd
 import pathlib
-import xlrd
 import time
 import glob
 

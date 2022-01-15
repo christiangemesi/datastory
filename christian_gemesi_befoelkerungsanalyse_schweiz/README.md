@@ -44,7 +44,6 @@ Alle CSV-Dateien wurden zusammengemerged.
 
 Attribute:
 	Die Tabelle sieht wie folgt aus: Dabei ist der Kanton ganz Links eingetragen, gefolgt von der Stadt, gefolgt von der Anzahl Personen in dieser Stadt im jeweiligen Jahr
-	(oben ersichtlich, z.B. 1850 waren 4657 Personen angemeldet in Aarau)
 
 	Beispiel:
 	Kanton	Stadt	1850	1860	1870	1880	1888	1900	1910	1920	1930	1941	1950	1960	1970	1980	1990	2000
@@ -70,7 +69,8 @@ Attribute:
 	1980      float64
 	1990      float64
 	2000      float64
-
+    
+Das Python-Script ändert daher nur die Datentypen ab damit wir diese Plotten können.
 
 
 Wer hat die Daten erhoben?
@@ -100,8 +100,10 @@ Welche Merkmale, Variablen, Attribute wurden erfasst?
 Siehe oben unter Data Description - Raw
 
 Was für Dimensionen / Masseinheiten haben die Variablen?
+Variablen sind vom typ float.
 
 Von was für einem Variablentyp sind die Variablen?
+Variablen sind vom typ float.
 
 kategorische (nominale) Variablen
 -Kanton
