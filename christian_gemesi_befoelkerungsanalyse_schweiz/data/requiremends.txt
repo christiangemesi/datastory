@@ -1,2 +1,14 @@
+Folgende imports wurden verwendet:
+
+import zipfile
+import os
+import requests
+import pandas as pd
+import pathlib
+import time
+import glob
+
+Folgende Imports müssen manuell nachimportiert werden.
+
 import folium
 import glob
