@@ -27,6 +27,48 @@ https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-200
 
 ## Data Collection
 
+Wer hat die Daten erhoben?
+Christian Gémesi
+
+Wie wurden die Daten erhoben?
+Via Downloadlink (genauer bereits oben beschrieben)
+
+Wann wurden die Daten erhoben?
+
+https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
+
+Gemäss Link am 1. November 2005
+
+Wie viele Datenpunkte (n) wurden erfasst?
+
+Es wurde für jede Stadt in der Schweiz ein Wert für die Jahre von 1850-2000 erhoben
+2896 rows × 18 columns
+
+Wurden Attribute präprozessiert? Falls ja, wie?
+Daten wurden nicht präprozessiert
+
+Wurden die Daten gefiltert? Falls ja, wie?
+Daten wurden nicht gefiltert
+
+Welche Merkmale, Variablen, Attribute wurden erfasst?
+Siehe oben unter Data Description - Raw
+
+Was für Dimensionen / Masseinheiten haben die Variablen?
+Variablen sind vom typ float.
+
+Von was für einem Variablentyp sind die Variablen?
+Variablen sind vom typ float.
+
+kategorische (nominale) Variablen
+-Kanton
+-Stadt
+
+quantitiative (kardinale) Variablen
+-1850
+-1860
+-...
+-2000
+
 ### Data Description - Raw
 
 -Die Daten wurden vom Bundesamt für Statistik BFS gesammelt, zuletzt aktualisiert am 1. November 2005
@@ -73,47 +115,6 @@ Attribute:
 Das Python-Script ändert daher nur die Datentypen ab damit wir diese Plotten können.
 
 
-Wer hat die Daten erhoben?
-Christian Gémesi
-
-Wie wurden die Daten erhoben?
-Via Downloadlink (genauer bereits oben beschrieben)
-
-Wann wurden die Daten erhoben?
-
-https://opendata.swiss/de/dataset/bevolkerungsentwicklung-der-gemeinden-1850-2000
-
-Gemäss Link am 1. November 2005
-
-Wie viele Datenpunkte (n) wurden erfasst?
-
-Es wurde für jede Stadt in der Schweiz ein Wert für die Jahre von 1850-2000 erhoben
-2896 rows × 18 columns
-
-Wurden Attribute präprozessiert? Falls ja, wie?
-Daten wurden nicht präprozessiert
-
-Wurden die Daten gefiltert? Falls ja, wie?
-Daten wurden nicht gefiltert
-
-Welche Merkmale, Variablen, Attribute wurden erfasst?
-Siehe oben unter Data Description - Raw
-
-Was für Dimensionen / Masseinheiten haben die Variablen?
-Variablen sind vom typ float.
-
-Von was für einem Variablentyp sind die Variablen?
-Variablen sind vom typ float.
-
-kategorische (nominale) Variablen
--Kanton
--Stadt
-
-quantitiative (kardinale) Variablen
--1850
--1860
--...
--2000
 
 
 

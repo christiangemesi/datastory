@@ -161,7 +161,7 @@ def BarYearsWithKanton(year,wannaPlot):
             
     
     
-def form(kanton,wannaPlot):
+def wachstumAusgewähltesKantons(kanton,wannaPlot):
     """
     This function is similar to the "BarYearsWithKanton" function. This time the Kanton can be passed
     and the function will plot a bar plot with the added Kanton in combination with all available years (1850-2000) 
